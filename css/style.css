@@ -1,0 +1,32 @@
+/*=common section start=*/
+body{
+    font-family: 'open sens' sans-serif;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+/*=common section end=*/
+
+/*=nav section start =*/
+#primary_nav{
+    background-color: #02918c;
+}
+#primary_nav #menu ul li a{
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding: 13.5px 25px;
+    display: inline-block;
+}
+
+#primary_nav #menu ul li a:hover{
+    background-color: #cfc91d;
+    transition: 0.5ms;
+}
+
+
+/*=nav section end=*/
